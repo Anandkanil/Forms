@@ -1,5 +1,8 @@
 # React Form with Tailwind CSS
 
+
+![image](https://github.com/user-attachments/assets/1d65b89a-b338-43ad-a89c-98bea1c0dcb7)
+
 This is a simple React form component that collects user information like name, email, address, and notification preferences. The form is styled using Tailwind CSS and handles various input types including text, email, checkboxes, and radio buttons.
 
 ## Features
