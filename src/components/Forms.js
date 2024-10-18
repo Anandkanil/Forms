@@ -32,7 +32,7 @@ export default function Forms() {
     };
 
     return (
-        <form onSubmit={handleSubmit} className='shadow-custom w-1/2 max-w-[1080px] mx-auto flex flex-col items-start space-y-2 p-9 rounded-md my-6'>
+        <form onSubmit={handleSubmit} className='shadow-custom w-5/6 max-w-[1080px] mx-auto flex flex-col items-start space-y-2 p-9 rounded-md my-6'>
             <div className='w-full'><div className='text-center uppercase font-bold text-2xl text-blue-700'>Form</div></div>
             <label className='font-bold ' htmlFor='firstName'>First name</label>
             <input value={formData.firstName} onChange={changeHandler} className='w-[90%] p-2 rounded-md border border-blue-300' type='text' name='firstName' placeholder='Anand' />
